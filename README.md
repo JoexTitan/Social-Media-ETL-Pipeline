@@ -1,8 +1,6 @@
 # Twitter Data Pipeline
 
-
-## ![Logo](https://blog.fanpagekarma.com/wp-content/uploads/2020/11/Top-11-Tips-Twitter-Marketing.png)
-
+<img src='visuals/twitter_logo.JPG'>
 
 
 ## Introduction
@@ -13,19 +11,17 @@ In the following data pipeline we will analyze twitter data in order to extract 
 
 
 
-
-
 ## Extracting Twitter Data
 The first component is located inside the folder `tweet_collector` Its primary function is to get tweets for `load_tweet_data.py`. You must get Twitter credentials via https://developer.twitter.com/en/apps in order to gain access to the authentication tokens, afterwhich you will be able to insert them into `config.py`. We will limit non-retweeted tweets from users with more than two thousand followers in order to extract only relevant information. 
 
 <img src='visuals/twitter_pipeline02.JPG'>
 
 
+
 ## Loading Data Into MongoDB
 MongoDB is a NoSQL database management system that stores data in JSON-like format with flexible schemas. Tweets will be continuously streamed into our database running within a docker container. We will use Studio 3T in order to access the twitter data from the 27017 port (`docker-compose.yml`). However, any other port should work just as fine if we decide to modify it down the line. 
 
 <img src='visuals/json_view_sample03.JPG'>
-
 
 
 
