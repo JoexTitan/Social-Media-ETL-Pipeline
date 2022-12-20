@@ -1,5 +1,8 @@
 # Twitter Data Pipeline
-![Logo](https://techcrunch.com/wp-content/uploads/2014/08/twitter-analytics.jpg)
+
+
+## ![Logo](http://www.slate.com/content/dam/slate/articles/technology/technology/2017/03/cs/170302_RAMO_Illustration_CS_twitterecho-2.jpg.CROP.promo-large.jpg)
+
 
 
 ## Introduction
@@ -36,7 +39,7 @@ You will need to register at https://api.slack.com in order to get your User Aut
 
 The data trigger will happen every hour, but can be easily adjusted towards your individual needs. The computed data will present the percentage of tweets being neutral, positive or negative, and post a message into the slack channel where you registered your app.
 
-<img src='visuals/tweet_sample06.jpeg'>
 
 <img src='visuals/tweet_sentiment05.png'>
 
+<img src='visuals/tweet_sample06.jpeg'>
