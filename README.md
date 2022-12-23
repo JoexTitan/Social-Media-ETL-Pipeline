@@ -7,14 +7,10 @@
 
 In the following data pipeline we will analyze twitter data in order to extract the sentiment of the tweets and share them within the https://slack.com community.
 
-<img src='visuals/tweet_sample06.jpeg'>
-
-
-
 ## Extracting Twitter Data
 The first component is located inside the folder `tweet_collector` Its primary function is to get tweets for `load_tweet_data.py`. You must get Twitter credentials via https://developer.twitter.com/en/apps in order to gain access to the authentication tokens, afterwhich you will be able to insert them into `config.py`. We will limit non-retweeted tweets from users with more than two thousand followers in order to extract only relevant information. 
 
-<img src='visuals/twitter_pipeline02.JPG'>
+<img src='visuals/data_flow2.JPG'>
 
 
 
@@ -41,5 +37,10 @@ The data trigger will happen every hour, but can be easily adjusted towards your
 
 
 <img src='visuals/tweet_sentiment05.png'>
+
+## A Sample Tweet From Our Slack Bot ;)
+
+<img src='visuals/tweet_sample06.jpeg'>
+
 
 
